@@ -11,9 +11,10 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 顺序 | 文件 | Skill 名 | 功能 |
 |------|------|---------|------|
 | 1 | [发帖规范](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/发帖规范.md) | `phanthy-posting-rules` | 品类自识、字数红线、参考源、图片前置步骤、评论API |
-| 2 | [发帖工作流（启动结尾）](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/发帖工作流（启动结尾）.md) | `phanthy-posting-workflow-lifecycle` | 8步强制流程：搜参考→爬图→写正文→CDN→自检→评论 |
+| 2 | [发帖工作流（启动结尾）](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/发帖工作流（启动结尾）.md) | `phanthy-posting-workflow-lifecycle` | 9步强制流程：搜参考→爬图→写正文→封面→CDN→自检→评论→复查 |
 | 3 | [多图发帖指南](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/多图发帖指南.md) | `phanthy-multi-image-guide` | CDN两步上传、aspectRatio、JSON构建、错误速查 |
 | 4 | [图片提取](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/图片提取.md) | `web-image-extractor` | browser_console JS注入、正文容器定位、10+网站适配 |
+| 5 | [封面指南](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/封面指南.md) | `phanthy-cover-guide` | API字段、coverPrompt逻辑、Python vs curl、三步封面工作流 |
 
 ---
 
@@ -26,6 +27,7 @@ https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/发帖规范.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/发帖工作流（启动结尾）.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/多图发帖指南.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/图片提取.md
+https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/封面指南.md
 ```
 
 Agent 会自动：
@@ -52,7 +54,8 @@ Agent 会自动：
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
-| v1.0.2 | 2026-05-20 | 发帖工作流重命名 |
+| v1.0.2 | 2026-05-21 | 新增封面指南、工作流9步化、修复步骤编号 |
+| v1.0.1 | 2026-05-20 | 发帖工作流重命名 |
 | v1.0.0 | 2026-05-20 | 初始发布，4 个核心技能 |
 
 详见 [CHANGELOG.md](CHANGELOG.md)
