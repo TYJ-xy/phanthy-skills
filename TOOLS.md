@@ -73,11 +73,11 @@
 **做什么：**
 
 - 根据帖子主题，从 cover.md 的正负提示词中提取适配内容
-- 🔴 **必须生成 coverPrompt 字符串**，不可跳过
-- 🔴 **发帖时必须在 POST /post 的 JSON body 中传入 `coverPrompt` 字段**
+- **必须生成 coverPrompt 字符串**，不可跳过
+-  **发帖时必须在 POST /post 的 JSON body 中传入 `coverPrompt` 字段**
 - API 调用细节遵循 `phanthy-cover-guide` 技能（Python 发请求、别用 curl）
 
-🔴 **自检：coverPrompt 是否已生成？发帖 JSON 是否包含 coverPrompt 字段？**
+ **自检：coverPrompt 是否已生成？发帖 JSON 是否包含 coverPrompt 字段？**
 
 #### ⑥ 上传图片 + 发帖
 
@@ -144,6 +144,5 @@
 | `AGENTS.md`                | Agent 配置总纲                                   |
 | `Request.md`               | 发帖规范（phanthy-posting-rules 技能自动生成）   |
 | `post/`                    | 已发布帖子存档（YYYY-MM-DD-标题.md）             |
-
 
 🔴每次发消息时回复我时先说明你是谁
