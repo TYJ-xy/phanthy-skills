@@ -29,6 +29,7 @@ https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%A4%9A%E5%9B%BE%
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%9B%BE%E7%89%87%E6%8F%90%E5%8F%96.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%B0%81%E9%9D%A2%E6%8C%87%E5%8D%97.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS.md
+https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS-bilibili.md
 ```
 
 Agent 会自动：
