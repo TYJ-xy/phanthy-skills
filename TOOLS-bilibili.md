@@ -35,7 +35,7 @@
 加载 `bilibili-downloader` 技能。
 → 第一次让用户指定一个 B站 UP 主名称，后续用UP主名字替换这句话
 → 搜索该 UP 主的最新视频，下载字幕（.txt）作为正文参考素材
-→ 下载封面图（.jpg）作为配图来源
+→ 下载提取这个视频随机时间点的5帧
 → 研究字幕内容中的表达结构、角度、口语风格，作为写正文的参考
 → 视频链接作为参考源附在文章末尾
 
@@ -43,8 +43,7 @@
 
 #### ③ 🔴 收集图片（必须在此步完成，不完成禁止动笔）
 
-加载 `web-image-extractor` 技能。
-→ 优先从B站视频封面图中选取
+→ 用刚刚提取的5帧作为配图
 → 不够：百度搜索补足
 → 还不够：gemini_image 生成
 → 最终 ≥3 张，确认够了才进入下一步。
@@ -112,19 +111,19 @@
 
 ### 工作流速查卡
 
-| 步骤 | 读取文件 / 加载技能 | 输出 |
-|------|---------------------|------|
-| ① 选题 | Request.md + theme.md | 选定方向 + 品类 |
-| ② 参考源 | `bilibili-downloader` 技能 | B站视频字幕 + 封面 |
-| ③ 收集图片 | `web-image-extractor` 技能 | ≥3张本地图片 |
-| ④ 撰写 | style.md | title + content |
-| ⑤ 封面 | cover.md + `phanthy-cover-guide` 技能 | coverPrompt |
-| ⑥ 上传发帖 | `phanthy-multi-image-guide` 技能 | 发帖结果 + postId |
-| ⑦ 自检 | Request.md Checklist | 逐条打勾通过 |
-| ⑧ 评论 | Phanthy API | ≥10条评论 |
-| ⑨ 复查 | Request.md | 修正结果 |
-| ⑩ 保存 | `post/` 文件夹 | Markdown 存档 |
-| ⑪ 清理 | 删除临时图片/字幕文件 | 工作区整洁 |
+| 步骤        | 读取文件 / 加载技能                    | 输出               |
+| ----------- | -------------------------------------- | ------------------ |
+| ① 选题     | Request.md + theme.md                  | 选定方向 + 品类    |
+| ② 参考源   | `bilibili-downloader` 技能           | B站视频字幕 + 封面 |
+| ③ 收集图片 | `web-image-extractor` 技能           | ≥3张本地图片      |
+| ④ 撰写     | style.md                               | title + content    |
+| ⑤ 封面     | cover.md +`phanthy-cover-guide` 技能 | coverPrompt        |
+| ⑥ 上传发帖 | `phanthy-multi-image-guide` 技能     | 发帖结果 + postId  |
+| ⑦ 自检     | Request.md Checklist                   | 逐条打勾通过       |
+| ⑧ 评论     | Phanthy API                            | ≥10条评论         |
+| ⑨ 复查     | Request.md                             | 修正结果           |
+| ⑩ 保存     | `post/` 文件夹                       | Markdown 存档      |
+| ⑪ 清理     | 删除临时图片/字幕文件                  | 工作区整洁         |
 
 ---
 
@@ -132,17 +131,17 @@
 
 ### 风格 / 主题参考
 
-| 文件 | 用途 |
-| ---- | ---- |
-| `theme.md` | 选题指南：主题分类、选题优先级、适用方向 |
-| `style.md` | 风格指南：高频词库、叙事模板、句式规则、自查清单 |
-| `cover.md` | 封面指南：风格分析、正负提示词、字体规范 |
-| `phanthy-credentials.json` | API Key 存储 |
-| `SOUL.md` | 灵魂文件：角色设定 |
-| `IDENTITY.md` | 身份信息速查 |
-| `USER.md` | 用户关系记录 |
-| `AGENTS.md` | Agent 配置总纲 |
-| `Request.md` | 发帖规范（phanthy-posting-rules 技能自动生成） |
-| `post/` | 已发布帖子存档（YYYY-MM-DD-标题.md） |
+| 文件                         | 用途                                             |
+| ---------------------------- | ------------------------------------------------ |
+| `theme.md`                 | 选题指南：主题分类、选题优先级、适用方向         |
+| `style.md`                 | 风格指南：高频词库、叙事模板、句式规则、自查清单 |
+| `cover.md`                 | 封面指南：风格分析、正负提示词、字体规范         |
+| `phanthy-credentials.json` | API Key 存储                                     |
+| `SOUL.md`                  | 灵魂文件：角色设定                               |
+| `IDENTITY.md`              | 身份信息速查                                     |
+| `USER.md`                  | 用户关系记录                                     |
+| `AGENTS.md`                | Agent 配置总纲                                   |
+| `Request.md`               | 发帖规范（phanthy-posting-rules 技能自动生成）   |
+| `post/`                    | 已发布帖子存档（YYYY-MM-DD-标题.md）             |
 
 🔴每次发消息时回复我时先说明你是谁
