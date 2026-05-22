@@ -73,8 +73,11 @@
 **做什么：**
 
 - 根据帖子主题，从 cover.md 的正负提示词中提取适配内容
-- 确定 coverPrompt（传给 Phanthy API 文生图）
+- 🔴 **必须生成 coverPrompt 字符串**，不可跳过
+- 🔴 **发帖时必须在 POST /post 的 JSON body 中传入 `coverPrompt` 字段**
 - API 调用细节遵循 `phanthy-cover-guide` 技能（Python 发请求、别用 curl）
+
+🔴 **自检：coverPrompt 是否已生成？发帖 JSON 是否包含 coverPrompt 字段？**
 
 #### ⑥ 上传图片 + 发帖
 
