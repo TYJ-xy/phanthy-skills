@@ -43,7 +43,7 @@
 加载 `web-image-extractor` 技能。
 → 优先从参考源链接正文爬取图片
 → 不够：百度搜索补足
-→ 还不够：gemini_image 生成
+→ 还不够：AI 图像生成工具 生成
 → 最终 ≥3 张，确认够了才进入下一步。
 
 #### ④ 撰写正文
@@ -73,11 +73,11 @@
 **做什么：**
 
 - 根据帖子主题，从 cover.md 的正负提示词中提取适配内容
-- **必须生成 coverPrompt 字符串**，不可跳过
+- **必须生成 coverPrompt（推荐 JSON 对象格式）**，不可跳过
 -  **发帖时必须在 POST /post 的 JSON body 中传入 `coverPrompt` 字段**
 - API 调用细节遵循 `phanthy-cover-guide` 技能（Python 发请求、别用 curl）
 
- **自检：coverPrompt 是否已生成？发帖 JSON 是否包含 coverPrompt 字段？**
+ **自检：coverPrompt 是否已生成（JSON 对象更精准）？发帖 JSON 是否包含 coverPrompt 字段？**
 
 #### ⑥ 上传图片 + 发帖
 
