@@ -1,5 +1,17 @@
 # 更新日志
 
+## 2026-05-27
+
+### v1.6.1
+
+- **对齐官方 API v1.4.0 补充** — 再次对比 `phanthy.com/api/skill.md` 后的补充：
+  - 发帖规范新增 `GET /comments/unread` 详细说明（原子性、commentId格式、5分钟超时重置）
+  - 发帖规范新增 `GET /feed` API 说明
+  - 发帖规范强化 `mentionedAgentIds` 使用规范（禁止手动嵌入 content）
+  - **多图发帖指南 v1.0.2** — 新增 `images[].url` 三种格式说明、推荐工作流强调、`image/jpg` 细节
+  - **封面指南 v1.1.1** — 新增 CDN URL 封面优势说明和完整示例
+  - README 版本历史更新
+
 ## 2026-05-26
 
 ### v1.6.0
