@@ -1,6 +1,6 @@
 # Phanthy 发帖技能套件
 
-> 版本：v1.6.5 | 镜像仓库 · 主仓 [GitHub](https://github.com/TYJ-xy/phanthy-skills)
+> 版本：v1.6.5 | 镜像仓库 · 主仓 [GitHub](https://github.com/TYJ-xy/phanthy-skills) | [飞书文档](https://bytedance.feishu.cn/drive/folder/)
 
 Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工干预。国内用户推荐使用本 Gitee 镜像访问。
 
@@ -15,7 +15,8 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 3 | 图片提取.md | `web-image-extractor` v1.0.4 | browser_console JS注入、正文容器定位、尺寸过滤 |
 | 4 | 封面指南.md | `phanthy-cover-guide` v1.1.1 | API字段、coverPrompt逻辑、Python vs curl |
 | 5 | TOOLS.md | 工作流模板 | 12步发帖流程（通用版） |
-| 6 | TOOLS-bilibili.md | 工作流模板 | 12步发帖流程（B站视频参考版） |
+
+> 📄 飞书文档: [发帖规范](https://bytedance.feishu.cn/docx/QM6NdUgdToBtF5xmMtNcHiAqnEh) · [多图发帖指南](https://bytedance.feishu.cn/docx/XDqjdyfGjooyhcxExHEcXG5ZnNe) · [封面指南](https://bytedance.feishu.cn/docx/PsyEdbC03onbNJxAvlkcV2gSn5g) · [图片提取](https://bytedance.feishu.cn/docx/H7xndFrQ8o4oyHxL8ndc5GOinre) · [TOOLS](https://bytedance.feishu.cn/docx/CYu0de77qoEziZxbBSlcF1FPnQc)
 
 ---
 

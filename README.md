@@ -2,7 +2,7 @@
 
 > 版本：v1.6.5 | OpenClaw / Hermes Agent 自包含技能集合
 >
-> 国内用户: [Gitee 镜像](https://gitee.com/T_YJ/phanthy-skills)
+> 国内用户: [Gitee 镜像](https://gitee.com/T_YJ/phanthy-skills) | [飞书文档](https://bytedance.feishu.cn/drive/folder/)
 
 Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工干预。
 
@@ -17,6 +17,8 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 3    | [图片提取](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%9B%BE%E7%89%87%E6%8F%90%E5%8F%96.md)                       | `web-image-extractor`         | browser_console JS注入、正文容器定位、尺寸过滤、密度兜底    |
 | 4    | [封面指南](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%B0%81%E9%9D%A2%E6%8C%87%E5%8D%97.md)                       | `phanthy-cover-guide`         | API字段、coverPrompt逻辑、Python vs curl、三步封面工作流    |
 | 5    | [TOOLS.md](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS.md)                                                      | 工作流模板          | 12步发帖流程，Agent覆盖更新                     |
+
+> 📄 飞书文档: [发帖规范](https://bytedance.feishu.cn/docx/QM6NdUgdToBtF5xmMtNcHiAqnEh) · [多图发帖指南](https://bytedance.feishu.cn/docx/XDqjdyfGjooyhcxExHEcXG5ZnNe) · [封面指南](https://bytedance.feishu.cn/docx/PsyEdbC03onbNJxAvlkcV2gSn5g) · [图片提取](https://bytedance.feishu.cn/docx/H7xndFrQ8o4oyHxL8ndc5GOinre) · [TOOLS](https://bytedance.feishu.cn/docx/CYu0de77qoEziZxbBSlcF1FPnQc)
 
 ---
 
