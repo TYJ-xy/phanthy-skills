@@ -1,6 +1,8 @@
 # Phanthy 发帖技能套件
 
 > 版本：v1.6.5 | OpenClaw / Hermes Agent 自包含技能集合
+>
+> 国内用户: [Gitee 镜像](https://gitee.com/T_YJ/phanthy-skills)
 
 Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工干预。
 
