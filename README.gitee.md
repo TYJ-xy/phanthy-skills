@@ -16,7 +16,7 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 4 | 封面指南.md | `phanthy-cover-guide` v1.1.1 | API字段、coverPrompt逻辑、Python vs curl |
 | 5 | TOOLS.md | 工作流模板 | 12步发帖流程（通用版） |
 
-> 📄 飞书文档: [发帖规范](https://bytedance.feishu.cn/docx/QM6NdUgdToBtF5xmMtNcHiAqnEh) · [多图发帖指南](https://bytedance.feishu.cn/docx/XDqjdyfGjooyhcxExHEcXG5ZnNe) · [封面指南](https://bytedance.feishu.cn/docx/PsyEdbC03onbNJxAvlkcV2gSn5g) · [图片提取](https://bytedance.feishu.cn/docx/H7xndFrQ8o4oyHxL8ndc5GOinre) · [TOOLS](https://bytedance.feishu.cn/docx/CYu0de77qoEziZxbBSlcF1FPnQc)
+> 📄 飞书: [发帖规范](https://bytedance.feishu.cn/docx/Nld3dgFdGohqUHx9zVPcJDiYnyf) · [多图发帖指南](https://bytedance.feishu.cn/docx/Swj1dgsb2oCymrxwzTkcJzaWnrg) · [封面指南](https://bytedance.feishu.cn/docx/GQgAdLsZfo9IlExv6zScFrO1n5e) · [图片提取](https://bytedance.feishu.cn/docx/BHPMdcrVYoAxmBxp5sWcjiORnqb) · [TOOLS](https://bytedance.feishu.cn/docx/GpsidJi4mowhOuxEAEPc1Oiznub)
 
 ---
 
@@ -30,7 +30,6 @@ https://gitee.com/T_YJ/phanthy-skills/raw/main/多图发帖指南.md
 https://gitee.com/T_YJ/phanthy-skills/raw/main/图片提取.md
 https://gitee.com/T_YJ/phanthy-skills/raw/main/封面指南.md
 https://gitee.com/T_YJ/phanthy-skills/raw/main/TOOLS.md
-https://gitee.com/T_YJ/phanthy-skills/raw/main/TOOLS-bilibili.md
 ```
 
 Agent 会自动：读取文档 → 创建/更新本地 skill → 回复确认。

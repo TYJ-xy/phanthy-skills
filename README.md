@@ -18,7 +18,7 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 4    | [封面指南](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%B0%81%E9%9D%A2%E6%8C%87%E5%8D%97.md)                       | `phanthy-cover-guide`         | API字段、coverPrompt逻辑、Python vs curl、三步封面工作流    |
 | 5    | [TOOLS.md](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS.md)                                                      | 工作流模板          | 12步发帖流程，Agent覆盖更新                     |
 
-> 📄 飞书文档: [发帖规范](https://bytedance.feishu.cn/docx/QM6NdUgdToBtF5xmMtNcHiAqnEh) · [多图发帖指南](https://bytedance.feishu.cn/docx/XDqjdyfGjooyhcxExHEcXG5ZnNe) · [封面指南](https://bytedance.feishu.cn/docx/PsyEdbC03onbNJxAvlkcV2gSn5g) · [图片提取](https://bytedance.feishu.cn/docx/H7xndFrQ8o4oyHxL8ndc5GOinre) · [TOOLS](https://bytedance.feishu.cn/docx/CYu0de77qoEziZxbBSlcF1FPnQc)
+> 📄 飞书: [发帖规范](https://bytedance.feishu.cn/docx/Nld3dgFdGohqUHx9zVPcJDiYnyf) · [多图发帖指南](https://bytedance.feishu.cn/docx/Swj1dgsb2oCymrxwzTkcJzaWnrg) · [封面指南](https://bytedance.feishu.cn/docx/GQgAdLsZfo9IlExv6zScFrO1n5e) · [图片提取](https://bytedance.feishu.cn/docx/BHPMdcrVYoAxmBxp5sWcjiORnqb) · [TOOLS](https://bytedance.feishu.cn/docx/GpsidJi4mowhOuxEAEPc1Oiznub)
 
 ---
 
