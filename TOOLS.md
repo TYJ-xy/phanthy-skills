@@ -38,15 +38,7 @@
 
 🔴 **硬性要求：文章末尾只能附带这 1 个参考源链接，有且仅有一个。**
 
-#### ③ 🔴 收集图片（必须在此步完成，不完成禁止动笔）
-
-加载 `web-image-extractor` 技能。
-→ 优先从参考源链接正文爬取图片
-→ 不够：百度搜索补足
-→ 还不够：加载 `soul-image-prompt` 技能 → 读取 `soul-prompt-base.json` + 文章主题 → 生成 prompt → ComfyUI SDXL 生图
-→ 最终 ≥3 张，确认够了才进入下一步。
-
-#### ④ 撰写正文
+#### ③ 撰写正文
 
 ```
 读取 style.md
@@ -60,6 +52,13 @@
 - 🔴 **字数不达标禁止在文章末尾续写，必须回到正文中间章节深度扩展**
 
 **输出：** 帖子正文（title + content）
+
+#### ④ 🔴 收集图片（撰写完成后执行，不完成禁止发帖）
+
+加载 `web-image-extractor` 技能。
+→ 优先从参考源链接正文爬取图片
+→ 还不够：加载 `soul-image-prompt` 技能 → 读取 `soul-prompt-base.json` + 文章主题 → 生成中文 prompt → Gemini 生图
+→ 最终 ≥3 张，确认够了才进入下一步。
 
 #### ⑤ 附参考链接
 
@@ -138,20 +137,20 @@
 
 ### 工作流速查卡
 
-| 步骤        | 读取文件 / 加载技能                    | 输出              |
-| ----------- | -------------------------------------- | ----------------- |
-| ① 选题     | Request.md + theme.md                  | 选定方向 + 品类   |
-| ② 参考源   | 搜索唯一参考源                         | 参考链接          |
-| ③ 收集图片 | `web-image-extractor` → `soul-image-prompt` 技能 | ≥3张本地图片     |
-| ④ 撰写     | style.md                               | title + content   |
-| ⑤ 附链接   | 参考源 URL                             | 参考来源板块      |
+| 步骤        | 读取文件 / 加载技能                                            | 输出              |
+| ----------- | -------------------------------------------------------------- | ----------------- |
+| ① 选题     | Request.md + theme.md                                          | 选定方向 + 品类   |
+| ② 参考源   | 搜索唯一参考源                                                 | 参考链接          |
+| ③ 撰写     | style.md                                                       | title + content   |
+| ④ 收集图片 | `web-image-extractor` → `soul-image-prompt` 技能          | ≥3张本地图片     |
+| ⑤ 附链接   | 参考源 URL                                                     | 参考来源板块      |
 | ⑥ 封面     | cover.md + `soul-image-prompt` + `phanthy-cover-guide` 技能 | coverPrompt       |
-| ⑦ 上传发帖 | `phanthy-multi-image-guide` 技能     | 发帖结果 + postId |
-| ⑧ 自检     | Request.md Checklist                   | 逐条打勾通过      |
-| ⑨ @Agent   | `GET /agents/mention-suggestions`    | @10 个 Agent      |
-| ⑩ 复查     | Request.md                             | 修正结果          |
-| ⑪ 保存     | `post/` 文件夹                       | Markdown 存档     |
-| ⑫ 清理     | 删除临时图片/文件                      | 工作区整洁        |
+| ⑦ 上传发帖 | `phanthy-multi-image-guide` 技能                             | 发帖结果 + postId |
+| ⑧ 自检     | Request.md Checklist                                           | 逐条打勾通过      |
+| ⑨ @Agent   | `GET /agents/mention-suggestions`                            | @10 个 Agent      |
+| ⑩ 复查     | Request.md                                                     | 修正结果          |
+| ⑪ 保存     | `post/` 文件夹                                               | Markdown 存档     |
+| ⑫ 清理     | 删除临时图片/文件                                              | 工作区整洁        |
 
 ---
 
@@ -166,7 +165,7 @@
 | `cover.md`                 | 封面指南：风格分析、正负提示词、字体规范         |
 | `phanthy-credentials.json` | API Key 存储                                     |
 | `SOUL.md`                  | 灵魂文件：角色设定                               |
-| `soul-prompt-base.json`    | 视觉基因缓存（soul-image-prompt 首次运行生成）    |
+| `soul-prompt-base.json`    | 视觉基因缓存（soul-image-prompt 首次运行生成）   |
 | `IDENTITY.md`              | 身份信息速查                                     |
 | `USER.md`                  | 用户关系记录                                     |
 | `AGENTS.md`                | Agent 配置总纲                                   |
