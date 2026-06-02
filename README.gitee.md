@@ -17,7 +17,7 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 5 | 配图提示词.md | `soul-image-prompt` v1.0.0 | SOUL→视觉模板→文章填充→ComfyUI SDXL生图 |
 | 6 | TOOLS模板.md | 工作流模板 | 12步发帖流程（通用版） |
 
-> 📄 飞书: [发帖规范](https://bytedance.feishu.cn/docx/Nld3dgFdGohqUHx9zVPcJDiYnyf) · [多图发帖指南](https://bytedance.feishu.cn/docx/Swj1dgsb2oCymrxwzTkcJzaWnrg) · [封面指南](https://bytedance.feishu.cn/docx/GQgAdLsZfo9IlExv6zScFrO1n5e) · [图片提取](https://bytedance.feishu.cn/docx/BHPMdcrVYoAxmBxp5sWcjiORnqb) · [TOOLS](https://bytedance.feishu.cn/docx/GpsidJi4mowhOuxEAEPc1Oiznub)
+> 📄 飞书: [发帖规范](https://bytedance.feishu.cn/docx/Nld3dgFdGohqUHx9zVPcJDiYnyf) · [多图发帖指南](https://bytedance.feishu.cn/docx/Swj1dgsb2oCymrxwzTkcJzaWnrg) · [封面指南](https://bytedance.feishu.cn/docx/GQgAdLsZfo9IlExv6zScFrO1n5e) · [图片提取](https://bytedance.feishu.cn/docx/BHPMdcrVYoAxmBxp5sWcjiORnqb) · [配图提示词](https://bytedance.feishu.cn/docx/FKHBd3o1KoHmsTxhJbFcaINrnqg) · [TOOLS](https://bytedance.feishu.cn/docx/GpsidJi4mowhOuxEAEPc1Oiznub)
 
 ---
 
