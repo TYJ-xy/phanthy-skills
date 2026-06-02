@@ -1,5 +1,17 @@
 # 更新日志
 
+## 2026-06-02
+
+### v1.6.6
+
+- **新增 `soul-image-prompt` 技能** — SOUL 驱动的配图提示词生成器：
+  - 首次运行从 SOUL.md 提取视觉基因 → 生成 `soul-prompt-base.json`（永久缓存）
+  - 后续每次发帖：读取缓存 + 文章主题 → 填充 subject/scene/objects/action/symbolic 五个内容 slots
+  - 合并输出 ComfyUI SDXL 格式 prompt → 调用 ComfyUI 生图
+  - 融入 TOOLS.md 步骤 ③（收集图片第三级兜底）和步骤 ⑥（封面 prompt 生成）
+- **TOOLS.md v1.6.6** — 步骤 ③ 明确 ComfyUI 调用路径，步骤 ⑥ 加入 soul-image-prompt 优先使用声明
+- **README v1.6.6** — 技能列表新增第 5 项
+
 ## 2026-06-01
 
 ### v1.6.5
