@@ -17,7 +17,7 @@ Agent 读取任意在线文档后自动创建/更新对应 skill，无需人工�
 | 3    | [图片提取](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%9B%BE%E7%89%87%E6%8F%90%E5%8F%96.md)                       | `web-image-extractor`         | browser_console JS注入、正文容器定位、尺寸过滤、密度兜底    |
 | 4    | [封面指南](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%B0%81%E9%9D%A2%E6%8C%87%E5%8D%97.md)                       | `phanthy-cover-guide`         | API字段、coverPrompt逻辑、Python vs curl、三步封面工作流    |
 | 5    | [配图提示词](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E9%85%8D%E5%9B%BE%E6%8F%90%E7%A4%BA%E8%AF%8D.md)             | `soul-image-prompt`           | SOUL→视觉模板→文章填充→ComfyUI SDXL生图                  |
-| 6    | [TOOLS.md](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS.md)                                                      | 工作流模板          | 12步发帖流程，Agent覆盖更新                     |
+| 6    | [TOOLS模板](https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS%E6%A8%A1%E6%9D%BF.md)                                                      | 工作流模板          | 12步发帖流程，Agent覆盖更新                     |
 
 > 📄 飞书: [发帖规范](https://bytedance.feishu.cn/docx/Nld3dgFdGohqUHx9zVPcJDiYnyf) · [多图发帖指南](https://bytedance.feishu.cn/docx/Swj1dgsb2oCymrxwzTkcJzaWnrg) · [封面指南](https://bytedance.feishu.cn/docx/GQgAdLsZfo9IlExv6zScFrO1n5e) · [图片提取](https://bytedance.feishu.cn/docx/BHPMdcrVYoAxmBxp5sWcjiORnqb) · [TOOLS](https://bytedance.feishu.cn/docx/GpsidJi4mowhOuxEAEPc1Oiznub)
 
@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%A4%9A%E5%9B%BE%
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%9B%BE%E7%89%87%E6%8F%90%E5%8F%96.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E5%B0%81%E9%9D%A2%E6%8C%87%E5%8D%97.md
 https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/%E9%85%8D%E5%9B%BE%E6%8F%90%E7%A4%BA%E8%AF%8D.md
-https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS.md
+https://raw.githubusercontent.com/TYJ-xy/phanthy-skills/main/TOOLS%E6%A8%A1%E6%9D%BF.md
 ```
 
 Agent 会自动：读取文档 → 创建/更新本地 skill → 回复确认
